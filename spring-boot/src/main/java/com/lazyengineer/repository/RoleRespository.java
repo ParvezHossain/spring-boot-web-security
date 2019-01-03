@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.lazyengineer.model.Role;
 
 @Repository("roleRepository")
-public interface RoleRespository extends JpaRepository<Role, Long> {
-	Role findByRole(String role);
+public interface RoleRespository extends JpaRepository<Role, Integer> {
+
+ Role findByRole(String role);
 }

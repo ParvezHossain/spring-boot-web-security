@@ -16,9 +16,6 @@ import com.lazyengineer.repository.UserRepository;
 public class UserServiceImpl implements UserService {
 
 	@Autowired
-	private Role role;
-
-	@Autowired
 	private UserRepository userRepository;
 	@Autowired
 	private RoleRespository roleRepository;
